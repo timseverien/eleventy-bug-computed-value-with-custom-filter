@@ -1,0 +1,11 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+permalink: /tag-with-filter-{{ tag }}.html
+
+eleventyComputed:
+  title: Posts tagged “{{ tag | formatTag }}”
+---
+<h1>{{ title }}</h1>

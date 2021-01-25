@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "npm run build -- --watch",
+    "build": "eleventy --config=eleventy.config.js"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "title-case": "^3.0.3"
+  }
+}
